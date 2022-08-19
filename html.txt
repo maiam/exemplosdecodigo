@@ -1,0 +1,41 @@
+   
+   
+   <nav class="menu-de-navegacao">
+
+    </nav>
+
+    <section class="secao">
+
+        <header class="topo">
+
+        </header>
+    
+        <main class="principal">
+    
+        </main>
+    
+        <aside class="cantodireito">
+    
+        </aside>
+
+    </section>
+
+    <section class="secao-de-ilustracoes">
+        
+        <header class="topo">
+
+        </header>
+    
+        <main class="principal">
+    
+        </main>
+    
+        <aside class="cantodireito">
+    
+        </aside>
+
+    </section>
+
+    <footer class="base">
+
+    </footer>
