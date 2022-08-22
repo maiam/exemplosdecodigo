@@ -1,0 +1,9 @@
+#nav-secundario a:link{
+    text-decoration: none;
+}
+
+#nav-secundario a:hover {
+    text-decoration: underline;
+    text-decoration-color: #e7cba9;
+    text-decoration-thickness: 0.2rem;
+}
