@@ -15,31 +15,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     
     <!-- CSS MAIN -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-colorindo.css">
     
     <!-- JS BOOTSTRAP 5.2.0 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-
+    
 </head>
 <body>
     
+    <!-- Início Footer principal -->
     <footer id="footer">
         <footer-links class="">     
             <section id="footer-links" class="bg-success text-white bg-opacity-75">
                 <!-- Links do site -->
-                <div class="container">
+                <div id="" class="container">
                     <div class="d-flex mb-0 pt-4 justify-content-between align-items-start">
                         <h6>FALE CONOSCO</h6>
-                        <button class="btn btn-link text-white" type="button"><i class="fa-solid fa-plus"></i></button>
+                        <button id="btn-faleconosco" class="btn btn-link text-white" type="button"><i class="fa-solid fa-plus"></i></button>
                     </div>
-                    <div class="mb-3 d-flex justify-content-center">
-                        <form action="mailto:colorindo.net@gmail.com" method="get" class="was-validated">
-                            <label for="nome" class="form-label">Nome</label>
-                            <input class="form-control" type="text">
+                    <div class="form-visible container mb-3">
+                        <form action="https://formsubmit.co/colorindo.net@gmail.com" method="POST">                            <label for="nome" class="form-label">Nome</label>
+                            <input class="form-control" type="text" name="Nome">
+                            <input type="hidden" name="_subject" value="Novo email.">
                             <label for="email" class="form-label">E-mail</label>
-                            <input type="email" name="subject" id="" class="form-control" placeholder="name@example.com">
+                            <input type="email" name="Email" id="" class="form-control" placeholder="Email Address">
                             <label for="mensagem" class="form-label">Mensagem</label>
-                            <textarea class="form-control" name="body" id="" cols="30" rows="10"></textarea>
+                            <textarea class="form-control" name="Mensagem" id="" cols="30" rows="10"></textarea>
                             <div class="text-end">
                                 <button type="submit" value="Send" class="btn btn-danger mb-3 mt-1">Enviar</button>
                             </div>
@@ -47,14 +48,14 @@
                     </div>
                     <div class="d-flex mb-0 justify-content-between align-items-start">
                         <h6>EMPRESA</h6>   
-                        <button class="btn btn-link text-white" type="button"><i class="fa-solid fa-plus"></i></button>
+                        <button id="btn-empresa" class="btn btn-link text-white" type="button"><i class="fa-solid fa-plus"></i></button>
                     </div>
-                    <div class="container text-white">
+                    <div class="empresa-visible container text-white">
                         <p class="text-white">Fundada em 2022, a <a href="colorindo.net">Colorindo.net</a> ajuda pais, profissionais da educação e crianças a se conectarem com seus desenhos, personagens e ilustrações preferidas, em um site criativo e simples de se navegar.</p>
                         <p class="text-white">A missão da <a href="colorindo.net">Colorindo.net</a> é gerar oportunidades de aprendizados e muito divertimento para nossos clientes e nossa comunidade no mundo inteiro.</p>
                     </div>
                 </div>
-  
+
                     <!-- <div class="d-flex mb-3 justify-content-between align-items-start">
                         <h6>FERRAMENTAS E SERVIÇOS</h6>
                         <button class="btn btn-link text-white" type="button"><i class="fa-solid fa-plus"></i></button>
@@ -63,7 +64,7 @@
                         <h6>EMPRESA</h6>
                         <button class="btn btn-link text-white" type="button"><i class="fa-solid fa-plus"></i></button>
                     </div> -->
-  
+
                 <!-- Links de Rede Social -->
                 <section id="footer-redes-sociais" class="container text-center">
                         <a href="" class="text-white fs-1 text-decoration-none">
@@ -76,7 +77,7 @@
                             <i class="fa-brands fa-square-instagram text-decoration-none"></i>
                         </a>
                 </section>
-  
+
                 <!-- Links de política e privacidade do site -->
                 <section id="footer-politicas-privacidade" class="container">
                     <hr class="">
@@ -96,5 +97,10 @@
             </section>
         </footer-links>
     </footer>
+
 </body>
+
+    <!-- JS MAIN -->
+    <script src="footer-colorindo.js"></script>
+
 </html>
